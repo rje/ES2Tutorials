@@ -332,7 +332,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>943485A41234920400180A09</string>
+										<string>9441B39212349BBE00419186</string>
 										<key>history</key>
 										<array>
 											<string>94F936DB1234859900F31F98</string>
@@ -343,7 +343,7 @@
 											<string>9434856C12348DC700180A09</string>
 											<string>9434858712348EC100180A09</string>
 											<string>9434858812348EC100180A09</string>
-											<string>9434858912348EC100180A09</string>
+											<string>9441B39112349BBD00419186</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -357,18 +357,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {725, 412}}</string>
+								<string>{{0, 0}, {725, 404}}</string>
 								<key>RubberWindowFrame</key>
 								<string>466 63 932 701 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>412pt</string>
+							<string>404pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>243pt</string>
+							<string>251pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -382,7 +382,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {725, 216}}</string>
+										<string>{{10, 27}, {725, 224}}</string>
 										<key>RubberWindowFrame</key>
 										<string>466 63 932 701 0 0 1440 878 </string>
 									</dict>
@@ -466,11 +466,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9434854012348C1600180A09</string>
+				<string>9441B3731234977600419186</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>9434854112348C1600180A09</string>
+				<string>9441B3741234977600419186</string>
 				<string>94DD8D2A123353A200294E3C</string>
-				<string>9434854212348C1600180A09</string>
+				<string>9441B3751234977600419186</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -620,14 +620,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9434854312348C1600180A09</string>
+				<string>9441B37E12349B9700419186</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>9434854412348C1600180A09</string>
-				<string>9434854512348C1600180A09</string>
-				<string>9434854612348C1600180A09</string>
-				<string>9434854712348C1600180A09</string>
-				<string>94DD8D2A123353A200294E3C</string>
+				<string>9441B37F12349B9700419186</string>
+				<string>9441B38012349B9700419186</string>
+				<string>9441B38112349B9700419186</string>
+				<string>9441B38212349B9700419186</string>
+				<string>9441B38312349B9700419186</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -661,8 +661,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>9434854912348C1600180A09</string>
-		<string>9434854A12348C1600180A09</string>
+		<string>9441B38412349B9700419186</string>
+		<string>9441B38512349B9700419186</string>
 		<string>/Users/ryan/src/ES2tutorials/Tutorial_1/ES2Framework.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

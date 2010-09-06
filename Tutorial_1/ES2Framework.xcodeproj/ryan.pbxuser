@@ -43,9 +43,9 @@
 	};
 	28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {871, 4706}}";
-			sepNavSelRange = "{703, 0}";
-			sepNavVisRange = "{598, 390}";
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 4615}}";
+			sepNavSelRange = "{5823, 0}";
+			sepNavVisRange = "{5214, 1060}";
 		};
 	};
 	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
@@ -65,13 +65,12 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 94DD8D02123324D300294E3C /* ES2Framework */;
-		activeSDKPreference = iphoneos4.1;
+		activeSDKPreference = iphonesimulator4.1;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ES2Framework */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ES2Framework */,
 		);
 		breakpoints = (
-			9434856412348D0200180A09 /* ES2FrameworkViewController.m:218 */,
 		);
 		codeSenseManager = 94DD8D10123324F200294E3C /* Code sense */;
 		executables = (
@@ -100,20 +99,28 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 305433487;
-			PBXWorkspaceStateSaveDate = 305433487;
+			PBXPerProjectTemplateStateSaveDate = 305436509;
+			PBXWorkspaceStateSaveDate = 305436509;
 		};
 		perUserProjectItems = {
-			9434855612348C8A00180A09 /* PBXTextBookmark */ = 9434855612348C8A00180A09 /* PBXTextBookmark */;
-			9434856C12348DC700180A09 /* PBXTextBookmark */ = 9434856C12348DC700180A09 /* PBXTextBookmark */;
-			9434858712348EC100180A09 /* PBXTextBookmark */ = 9434858712348EC100180A09 /* PBXTextBookmark */;
-			9434858812348EC100180A09 /* PBXTextBookmark */ = 9434858812348EC100180A09 /* PBXTextBookmark */;
-			9434858912348EC100180A09 /* PBXTextBookmark */ = 9434858912348EC100180A09 /* PBXTextBookmark */;
-			943485A41234920400180A09 /* PBXTextBookmark */ = 943485A41234920400180A09 /* PBXTextBookmark */;
-			94F936DB1234859900F31F98 /* PBXTextBookmark */ = 94F936DB1234859900F31F98 /* PBXTextBookmark */;
-			94F936F6123486CE00F31F98 /* PBXTextBookmark */ = 94F936F6123486CE00F31F98 /* PBXTextBookmark */;
-			94F936F7123486CE00F31F98 /* PBXTextBookmark */ = 94F936F7123486CE00F31F98 /* PBXTextBookmark */;
-			94F936F8123486CE00F31F98 /* PBXTextBookmark */ = 94F936F8123486CE00F31F98 /* PBXTextBookmark */;
+			9434855612348C8A00180A09 = 9434855612348C8A00180A09 /* PBXTextBookmark */;
+			9434856C12348DC700180A09 = 9434856C12348DC700180A09 /* PBXTextBookmark */;
+			9434858712348EC100180A09 = 9434858712348EC100180A09 /* PBXTextBookmark */;
+			9434858812348EC100180A09 = 9434858812348EC100180A09 /* PBXTextBookmark */;
+			9434858912348EC100180A09 = 9434858912348EC100180A09 /* PBXTextBookmark */;
+			943485A41234920400180A09 = 943485A41234920400180A09 /* PBXTextBookmark */;
+			9441B3721234977600419186 /* PBXTextBookmark */ = 9441B3721234977600419186 /* PBXTextBookmark */;
+			9441B37C12349B9700419186 /* PBXTextBookmark */ = 9441B37C12349B9700419186 /* PBXTextBookmark */;
+			9441B37D12349B9700419186 /* PBXTextBookmark */ = 9441B37D12349B9700419186 /* PBXTextBookmark */;
+			9441B38812349BA000419186 /* PBXTextBookmark */ = 9441B38812349BA000419186 /* PBXTextBookmark */;
+			9441B38B12349BA700419186 /* PBXTextBookmark */ = 9441B38B12349BA700419186 /* PBXTextBookmark */;
+			9441B38F12349BB200419186 /* PBXTextBookmark */ = 9441B38F12349BB200419186 /* PBXTextBookmark */;
+			9441B39112349BBD00419186 /* PBXTextBookmark */ = 9441B39112349BBD00419186 /* PBXTextBookmark */;
+			9441B39212349BBE00419186 /* PBXTextBookmark */ = 9441B39212349BBE00419186 /* PBXTextBookmark */;
+			94F936DB1234859900F31F98 = 94F936DB1234859900F31F98 /* PBXTextBookmark */;
+			94F936F6123486CE00F31F98 = 94F936F6123486CE00F31F98 /* PBXTextBookmark */;
+			94F936F7123486CE00F31F98 = 94F936F7123486CE00F31F98 /* PBXTextBookmark */;
+			94F936F8123486CE00F31F98 = 94F936F8123486CE00F31F98 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 94DD8D0F123324F200294E3C /* Source Control */;
 		userBuildSettings = {
@@ -128,24 +135,6 @@
 		rType = 0;
 		vrLen = 812;
 		vrLoc = 269;
-	};
-	9434856412348D0200180A09 /* ES2FrameworkViewController.m:218 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
-		functionName = "-drawFrame";
-		hitCount = 4;
-		ignoreCount = 0;
-		lineNumber = 218;
-		location = ES2Framework;
-		modificationTime = 305433888.990561;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	9434856C12348DC700180A09 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -197,6 +186,86 @@
 		vrLen = 779;
 		vrLoc = 651;
 	};
+	9441B3721234977600419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 34";
+		rLen = 0;
+		rLoc = 703;
+		rType = 0;
+		vrLen = 945;
+		vrLoc = 5421;
+	};
+	9441B37C12349B9700419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 34";
+		rLen = 11;
+		rLoc = 705;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 340;
+	};
+	9441B37D12349B9700419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 65";
+		rLen = 0;
+		rLoc = 1618;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 1375;
+	};
+	9441B38812349BA000419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 65";
+		rLen = 0;
+		rLoc = 1618;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 1375;
+	};
+	9441B38B12349BA700419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 65";
+		rLen = 0;
+		rLoc = 1618;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 1375;
+	};
+	9441B38F12349BB200419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 65";
+		rLen = 0;
+		rLoc = 1618;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 1526;
+	};
+	9441B39112349BBD00419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 215";
+		rLen = 0;
+		rLoc = 5823;
+		rType = 0;
+		vrLen = 589;
+		vrLoc = 5435;
+	};
+	9441B39212349BBE00419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 215";
+		rLen = 0;
+		rLoc = 5823;
+		rType = 0;
+		vrLen = 1060;
+		vrLoc = 5214;
+	};
 	94DD8D02123324D300294E3C /* ES2Framework */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -204,7 +273,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;

@@ -202,28 +202,28 @@ enum {
     glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
     
-    if ([context API] == kEAGLRenderingAPIOpenGLES2)
-    {
-        // Use shader program.
-        glUseProgram(program);
-        
-        // Update attribute values.
-        glVertexAttribPointer(ATTRIB_VERTEX, 3, GL_FLOAT, 0, 0, squareVertices);
-        glEnableVertexAttribArray(ATTRIB_VERTEX);
-        glVertexAttribPointer(ATTRIB_COLOR, 4, GL_UNSIGNED_BYTE, 1, 0, squareColors);
-        glEnableVertexAttribArray(ATTRIB_COLOR);
-    }
-    else
-    {
-        glMatrixMode(GL_PROJECTION);
-        glLoadIdentity();
-        glMatrixMode(GL_MODELVIEW);
-        glLoadIdentity();
-        
-        glVertexPointer(3, GL_FLOAT, 0, squareVertices);
-        glEnableClientState(GL_VERTEX_ARRAY);
-        glColorPointer(4, GL_UNSIGNED_BYTE, 0, squareColors);
-        glEnableClientState(GL_COLOR_ARRAY);
+    switch([context API]) {
+        case kEAGLRenderingAPIOpenGLES2:
+            // Use shader program.
+            glUseProgram(program);
+            
+            // Update attribute values.
+            glVertexAttribPointer(ATTRIB_VERTEX, 3, GL_FLOAT, 0, 0, squareVertices);
+            glEnableVertexAttribArray(ATTRIB_VERTEX);
+            glVertexAttribPointer(ATTRIB_COLOR, 4, GL_UNSIGNED_BYTE, 1, 0, squareColors);
+            glEnableVertexAttribArray(ATTRIB_COLOR);
+            break;
+        case kEAGLRenderingAPIOpenGLES1: 
+        default:
+            glMatrixMode(GL_PROJECTION);
+            glLoadIdentity();
+            glMatrixMode(GL_MODELVIEW);
+            glLoadIdentity();
+            
+            glVertexPointer(3, GL_FLOAT, 0, squareVertices);
+            glEnableClientState(GL_VERTEX_ARRAY);
+            glColorPointer(4, GL_UNSIGNED_BYTE, 0, squareColors);
+            glEnableClientState(GL_COLOR_ARRAY);
     }
     
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
