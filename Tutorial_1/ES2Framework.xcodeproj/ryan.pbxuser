@@ -43,9 +43,9 @@
 	};
 	28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1370, 4550}}";
-			sepNavSelRange = "{5434, 0}";
-			sepNavVisRange = "{5245, 1040}";
+			sepNavIntBoundsRect = "{{0, 0}, {1370, 4433}}";
+			sepNavSelRange = "{5981, 0}";
+			sepNavVisRange = "{5326, 1017}";
 		};
 	};
 	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
@@ -118,6 +118,10 @@
 			9441B39112349BBD00419186 /* PBXTextBookmark */ = 9441B39112349BBD00419186 /* PBXTextBookmark */;
 			9441B39212349BBE00419186 /* PBXTextBookmark */ = 9441B39212349BBE00419186 /* PBXTextBookmark */;
 			9441B39312349BE700419186 /* PBXTextBookmark */ = 9441B39312349BE700419186 /* PBXTextBookmark */;
+			9441B39F12349FC400419186 /* PBXTextBookmark */ = 9441B39F12349FC400419186 /* PBXTextBookmark */;
+			9441B3A112349FC400419186 /* PBXTextBookmark */ = 9441B3A112349FC400419186 /* PBXTextBookmark */;
+			9441B3A312349FC400419186 /* PBXTextBookmark */ = 9441B3A312349FC400419186 /* PBXTextBookmark */;
+			9441B3A412349FC400419186 /* PBXTextBookmark */ = 9441B3A412349FC400419186 /* PBXTextBookmark */;
 			94F936DB1234859900F31F98 = 94F936DB1234859900F31F98 /* PBXTextBookmark */;
 			94F936F6123486CE00F31F98 = 94F936F6123486CE00F31F98 /* PBXTextBookmark */;
 			94F936F7123486CE00F31F98 = 94F936F7123486CE00F31F98 /* PBXTextBookmark */;
@@ -252,7 +256,7 @@
 		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
 		name = "ES2FrameworkViewController.m: 215";
 		rLen = 0;
-		rLoc = 5735;
+		rLoc = 5768;
 		rType = 0;
 		vrLen = 589;
 		vrLoc = 5435;
@@ -262,7 +266,7 @@
 		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
 		name = "ES2FrameworkViewController.m: 215";
 		rLen = 0;
-		rLoc = 5735;
+		rLoc = 5768;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 5214;
@@ -272,10 +276,62 @@
 		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
 		name = "ES2FrameworkViewController.m: 207";
 		rLen = 0;
-		rLoc = 5434;
+		rLoc = 5467;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 5245;
+	};
+	9441B39F12349FC400419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9441B3A012349FC400419186 /* gl.h */;
+		name = "gl.h: 16";
+		rLen = 0;
+		rLoc = 497;
+		rType = 0;
+		vrLen = 3026;
+		vrLoc = 23820;
+	};
+	9441B3A012349FC400419186 /* gl.h */ = {
+		isa = PBXFileReference;
+		name = gl.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h;
+		sourceTree = "<absolute>";
+	};
+	9441B3A112349FC400419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9441B3A212349FC400419186 /* gl.h */;
+		name = "gl.h: 723";
+		rLen = 14;
+		rLoc = 30334;
+		rType = 0;
+		vrLen = 1880;
+		vrLoc = 29588;
+	};
+	9441B3A212349FC400419186 /* gl.h */ = {
+		isa = PBXFileReference;
+		name = gl.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h;
+		sourceTree = "<absolute>";
+	};
+	9441B3A312349FC400419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 216";
+		rLen = 15;
+		rLoc = 5840;
+		rType = 0;
+		vrLen = 1017;
+		vrLoc = 5326;
+	};
+	9441B3A412349FC400419186 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* ES2FrameworkViewController.m */;
+		name = "ES2FrameworkViewController.m: 220";
+		rLen = 0;
+		rLoc = 5981;
+		rType = 0;
+		vrLen = 1017;
+		vrLoc = 5326;
 	};
 	94DD8D02123324D300294E3C /* ES2Framework */ = {
 		isa = PBXExecutable;

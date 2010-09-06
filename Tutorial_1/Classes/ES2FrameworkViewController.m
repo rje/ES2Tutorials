@@ -204,6 +204,7 @@ enum {
     
     switch([context API]) {
         case kEAGLRenderingAPIOpenGLES2:
+            // ES2 specific code
             glUseProgram(program);
             glVertexAttribPointer(ATTRIB_VERTEX, 3, GL_FLOAT, 0, 0, squareVertices);
             glEnableVertexAttribArray(ATTRIB_VERTEX);
@@ -212,6 +213,7 @@ enum {
             break;
         case kEAGLRenderingAPIOpenGLES1: 
         default:
+            // ES1 fallback
             glMatrixMode(GL_PROJECTION);
             glLoadIdentity();
             glMatrixMode(GL_MODELVIEW);
