@@ -276,12 +276,14 @@
 								<string>28FD14FF0DC6FC520079059D</string>
 								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>1C37FAAC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>30</integer>
-									<integer>29</integer>
+									<integer>7</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -320,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>94DD8D2A123353A200294E3C</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Shader.fsh</string>
+								<string>ES2FrameworkViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,22 +330,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>94DD8D2B123353A200294E3C</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Shader.fsh</string>
+										<string>ES2FrameworkViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>9441B3E71235969500419186</string>
+										<string>9441B3F8123596FA00419186</string>
 										<key>history</key>
 										<array>
 											<string>94F936F7123486CE00F31F98</string>
 											<string>94F936F8123486CE00F31F98</string>
 											<string>9434855612348C8A00180A09</string>
 											<string>9434856C12348DC700180A09</string>
-											<string>9434858712348EC100180A09</string>
 											<string>9434858812348EC100180A09</string>
-											<string>9441B3AE1235961700419186</string>
-											<string>9441B3AF1235961700419186</string>
-											<string>9441B3B11235961700419186</string>
+											<string>9441B39F12349FC400419186</string>
+											<string>9441B3A112349FC400419186</string>
+											<string>9441B3EA123596CD00419186</string>
+											<string>9441B3ED123596CD00419186</string>
+											<string>9441B3F2123596EC00419186</string>
+											<string>9441B3F3123596EC00419186</string>
+											<string>9441B3F4123596EC00419186</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -466,11 +471,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9441B3DE1235968900419186</string>
+				<string>9441B3C81235966100419186</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>9441B3DF1235968900419186</string>
+				<string>9441B3C91235966100419186</string>
 				<string>94DD8D2A123353A200294E3C</string>
-				<string>9441B3E01235968900419186</string>
+				<string>9441B3CA1235966100419186</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -620,14 +625,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9441B3E11235968900419186</string>
+				<string>9441B3CB1235966100419186</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>9441B3E21235968900419186</string>
-				<string>9441B3E31235968900419186</string>
-				<string>9441B3E41235968900419186</string>
-				<string>9441B3E51235968900419186</string>
-				<string>9441B3E61235968900419186</string>
+				<string>9441B3CC1235966100419186</string>
+				<string>9441B3CD1235966100419186</string>
+				<string>9441B3CE1235966100419186</string>
+				<string>9441B3CF1235966100419186</string>
+				<string>9441B3D01235966100419186</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -661,7 +666,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/ryan/src/ES2tutorials/Tutorial_1/ES2Framework.xcodeproj</string>
+		<string>/Users/ryan/src/ES2tutorials/Tutorial_2/ES2Framework.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>466 63 932 701 0 0 1440 878 </string>
