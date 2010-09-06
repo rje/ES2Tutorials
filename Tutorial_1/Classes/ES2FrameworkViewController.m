@@ -204,10 +204,7 @@ enum {
     
     switch([context API]) {
         case kEAGLRenderingAPIOpenGLES2:
-            // Use shader program.
             glUseProgram(program);
-            
-            // Update attribute values.
             glVertexAttribPointer(ATTRIB_VERTEX, 3, GL_FLOAT, 0, 0, squareVertices);
             glEnableVertexAttribArray(ATTRIB_VERTEX);
             glVertexAttribPointer(ATTRIB_COLOR, 4, GL_UNSIGNED_BYTE, 1, 0, squareColors);
