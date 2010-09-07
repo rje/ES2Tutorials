@@ -14,3 +14,5 @@ Tutorial List:
 1. Basics of supporting 1.1 & 2.0: http://igamedev.posterous.com/tutorial-1-supporting-multiple-render-paths
 2. Shader basics: http://igamedev.posterous.com/tutorial-2-shader-basics
 2a. Passing data to shaders: http://igamedev.posterous.com/tutorial-2a-passing-data-to-shaders
+3. Compiling and linking shaders: http://igamedev.posterous.com/tutorial-3-compiling-and-linking-shaders
+  * NOTE: This tutorial still uses the code from Tutorial_2
